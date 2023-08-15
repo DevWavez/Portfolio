@@ -26,7 +26,7 @@ const Work = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Basic Webdesign for a Startup company
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -34,7 +34,10 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/DevWavez/Spas/tree/main/DesignGbR-Spa"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -51,7 +54,7 @@ const Work = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Fan Page from Odin's Project
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -59,7 +62,10 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/DevWavez/Spas/tree/main/ShibaFanpage"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -75,7 +81,7 @@ const Work = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Fun Creation
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -83,7 +89,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/DevWavez/Spas/tree/main/TinDog%20Project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -99,7 +105,7 @@ const Work = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Coventic
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -107,7 +113,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/DevWavez/Coventic">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
