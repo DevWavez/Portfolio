@@ -1,6 +1,7 @@
 import React from "react";
 import Project1 from "../assets/webD.jpeg";
 import Project2 from "../assets/Shiba.jpeg";
+import Project3 from "../assets/TinDog.jpeg";
 
 const Work = () => {
   return (
@@ -67,7 +68,7 @@ const Work = () => {
           </div>
           {/* Grid item 3*/}
           <div
-            style={{ backgroundImage: `url(${Project2})` }}
+            style={{ backgroundImage: `url(${Project3})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
