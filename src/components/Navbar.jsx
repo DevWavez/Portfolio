@@ -104,6 +104,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/ramo-d%C3%B6ring-583ab618a/"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -113,6 +114,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/DevWavez"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
