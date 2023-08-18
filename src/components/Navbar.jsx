@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { GiSkills, GiHomeGarage, GiNetworkBars } from "react-icons/gi";
+import { LuContact } from "react-icons/lu";
+import { AiOutlineUser } from "react-icons/ai";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -61,28 +64,33 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl ml-2">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            <GiHomeGarage size={30} className="inline mr-5" />
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl ml-2">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            <AiOutlineUser size={30} className="inline mr-5" />
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl ml-1">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            <GiSkills size={30} className="inline mr-5" />
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            <GiNetworkBars size={30} className="inline mr-5" />
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl ml-8">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            <LuContact size={30} className="inline mr-5" />
             Contact
           </Link>
         </li>
