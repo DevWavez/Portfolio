@@ -6,6 +6,7 @@ import { GiSkills, GiHomeGarage, GiNetworkBars } from "react-icons/gi";
 import { LuContact } from "react-icons/lu";
 import { AiOutlineUser } from "react-icons/ai";
 import { Link } from "react-scroll";
+import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,9 +16,9 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
+      <div className="w-[200px] relative left-[-30px] top-2 ">
         {/* logo */}
-        <img src="" alt="" />
+        <img src={Logo} alt="" />
       </div>
 
       {/* Menu */}
