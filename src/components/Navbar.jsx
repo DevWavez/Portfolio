@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
 
       {/* Menu */}
-      <di className="hidden md:flex">
+      <div className="hidden md:flex">
         <ul className="hidden md:flex">
           <li>
             <Link to="home" smooth={true} duration={500}>
@@ -50,7 +50,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-      </di>
+      </div>
 
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
